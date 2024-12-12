@@ -1,0 +1,83 @@
+{
+    "starters": [
+        {
+            "id": 1,
+            "num": "001",
+            "name": "Bulbasaur",
+            "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "height": "0.71 m",
+            "weight": "6.9 kg",
+            "weaknesses": [
+                "Fire",
+                "Ice",
+                "Flying",
+                "Psychic"
+            ],
+            "next_evolution": [
+                {
+                    "num": "002",
+                    "name": "Ivysaur"
+                },
+                {
+                    "num": "003",
+                    "name": "Venusaur"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "num": "004",
+            "name": "Charmander",
+            "img": "http://www.serebii.net/pokemongo/pokemon/004.png",
+            "type": [
+                "Fire"
+            ],
+            "height": "0.61 m",
+            "weight": "8.5 kg",
+            "weaknesses": [
+                "Water",
+                "Ground",
+                "Rock"
+            ],
+            "next_evolution": [
+                {
+                    "num": "005",
+                    "name": "Charmeleon"
+                },
+                {
+                    "num": "006",
+                    "name": "Charizard"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "num": "007",
+            "name": "Squirtle",
+            "img": "http://www.serebii.net/pokemongo/pokemon/007.png",
+            "type": [
+                "Water"
+            ],
+            "height": "0.51 m",
+            "weight": "9.0 kg",
+            "weaknesses": [
+                "Electric",
+                "Grass"
+            ],
+            "next_evolution": [
+                {
+                    "num": "008",
+                    "name": "Wartortle"
+                },
+                {
+                    "num": "009",
+                    "name": "Blastoise"
+                }
+            ]
+        }
+    ]
+}
