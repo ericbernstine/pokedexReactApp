@@ -1,0 +1,254 @@
+body{
+  background-color: #eee;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #000;
+    color: white;
+  }
+  
+  .navBar a{
+    color: #eee;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; 
+  }
+  
+  .navBar a:hover{
+    background-color: #4a4a4a;
+  }
+
+.logo{
+    /* margin-right: auto; */
+    margin-left: 0.75rem;
+}
+.logo img{
+    height: 3.5rem;
+    border-radius: 5px;
+    margin: 5px 5px;
+    transition: background-color 0.5s ease; 
+}
+.logo img:hover{
+    background-color: #4a4a4a;
+    cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  margin: .25rem auto;
+}
+
+.starterImage{
+  display: flex;
+  margin: 10px auto;
+}
+
+h1, h4{
+  text-align: center;
+}
+.starterWrap{
+  background-color: #9c9c9c;
+  border-radius: 15px;
+  margin: 10px 1rem;
+}
+
+.starter{
+  margin: 10px 15px;
+  padding: 5px 2px;
+  background-color: #c8c8c8;
+  border-radius: 15px;
+}
+
+.staterStats{
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.line{
+  background-color: #000;
+  height: 2px;
+  margin: 1px auto;
+  width: 80%;
+}
+table{
+  border-collapse: collapse;
+}
+th, td, tr{
+  border: 1px solid;
+  padding: 5px 5px;
+}
+th{
+  background-color: #cfcfcf;
+}
+
+.pokemonTable button{ 
+  margin: 0px 12px !important;
+  color: white;
+  background-color: #f40707 !important;
+  font-size: 120% !important;
+  border: none; 
+  border-radius: 10px !important;
+  height: 2rem !important;
+  width: auto!important;
+  cursor: pointer !important;
+}
+
+.pokemonTable button:hover{
+  background-color: #d32b2b !important;
+}
+
+.pokemonTable img{
+  height: 8.5rem;
+  width: auto;
+
+}
+
+.addForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.addForm button, .contactForm button, .homeButton button{
+  padding: 10px;
+  background-color: #cfcfcf;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.addForm button:hover{
+  background-color: #9a9a9a;
+  transform: scale(1.05); 
+}
+.addButton{
+  width: 80%;
+  margin: 5px auto;
+}
+
+.addFormCollapse {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transition: opacity 0.75s ease, visibility 0.75s ease, height 0.75s ease;
+}
+
+
+.addFormCollapse.visible {
+  opacity: 1;
+  visibility: visible;
+  height: auto; /* Expands the form smoothly */
+}
+.addFormCollapse form, .contactForm form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.addFormCollapse input{
+  width: 140%;
+  margin: 2px auto;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+  font-size: 16px; 
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none; 
+}
+
+.updates{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: .25rem auto;
+}
+
+.updatesDesc{
+  background-color: #c7c6c6;
+  border-radius: 15px;
+  padding: 10px 20px;
+  width: 40%;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+.contactForm{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 5rem auto;
+  height: 0;
+}
+
+.contactForm input{
+  width: 180%;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+  font-size: 16px; 
+  }
+.contactForm input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none; 
+}
+.contactForm input:nth-child(3){
+  height: 100px;
+}
+
+.contactForm button, .homeButton button{
+  color: white;
+  background-color: #4CAF50;
+}
+.contactForm button:hover, .homeButton button:hover{
+  background-color: #3c883e;
+  transform: scale(1.05); 
+}
+
+.homeButton button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: 5px auto !important;
+}
+
+.welcomeImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcomeImg img{
+  height: 12rem;
+  max-height: 12rem;
+  width: auto;
+}
