@@ -1,5 +1,6 @@
 {
   "name": "finalproject",
+  "homepage:" "https://ericbernstine.github.io/pokedexReactApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
